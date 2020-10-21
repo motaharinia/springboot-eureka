@@ -6,20 +6,6 @@ Service Discovery is one of the key tenets of a microservice-based architecture.
 ### Registering with Eureka:
 When a client registers with Eureka, it provides meta-data about itself — such as host, port, health indicator URL, home page, and other details. Eureka receives heartbeat messages from each instance belonging to a service. If the heartbeat fails over a configurable timetable, the instance is normally removed from the registry
 
-### Steps by Video:
-1. Starting a Eureka server - Spring Boot Microservices Level 1 (you can view spring eureka server page on eureka default port: http://localhost:8761/ after run the project):
-https://www.youtube.com/watch?v=GTM2J0nYmbs
-2. Creating Eureka clients - Spring Boot Microservices Level 1:
-https://www.youtube.com/watch?v=jhvJg4tDrpw
-3. Discovering services through Eureka - Spring Boot Microservices Level 1:
-https://www.youtube.com/watch?v=GxLjcOE35oA
-4. Doing client side load balancing - Spring Boot Microservices Level 1:
-https://www.youtube.com/watch?v=tG2dA6zyEgM&t=174s
-5. Recap and Next Steps - Spring Boot Microservices Level 1:
-https://www.youtube.com/watch?v=93GrGzaA9_A
-6. Recap of Level 1 - Spring Boot Microservices Level 2:
-https://www.youtube.com/watch?v=X7n4BUEWOoE
-
 further references:     
 - https://cloud.spring.io/spring-cloud-netflix/multi/multi__service_discovery_eureka_clients.html
 - https://github.com/Netflix/eureka
@@ -32,6 +18,20 @@ eureka run server and clients steps:
 - start movie-info and movie-catalog
 - watch eureka service monitor again
 - run http://localhost:8084/catalog to test eureka rest call
+
+Steps by Video:
+- Starting a Eureka server - Spring Boot Microservices Level 1 (you can view spring eureka server page on eureka default port: http://localhost:8761/ after run the project):
+    - https://www.youtube.com/watch?v=GTM2J0nYmbs
+- Creating Eureka clients - Spring Boot Microservices Level 1:
+    - https://www.youtube.com/watch?v=jhvJg4tDrpw
+- Discovering services through Eureka - Spring Boot Microservices Level 1:
+    - https://www.youtube.com/watch?v=GxLjcOE35oA
+- Doing client side load balancing - Spring Boot Microservices Level 1:
+    - https://www.youtube.com/watch?v=tG2dA6zyEgM&t=174s
+- Recap and Next Steps - Spring Boot Microservices Level 1:
+    - https://www.youtube.com/watch?v=93GrGzaA9_A
+- Recap of Level 1 - Spring Boot Microservices Level 2:
+    - https://www.youtube.com/watch?v=X7n4BUEWOoE
 
 ### IntellliJ IDEA Configurations:
 - IntelijIDEA: Help -> Edit Custom Vm Options -> add these two line:
